@@ -1,5 +1,5 @@
 import * as Toast from "@radix-ui/react-toast";
-import { useToast } from "@/hooks/use-toast";
+import { useToast } from "@/hooks/useToast";
 import { CheckCircle, AlertCircle, Info, X } from "lucide-react";
 
 const variantStyles = {

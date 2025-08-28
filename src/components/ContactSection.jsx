@@ -11,7 +11,7 @@ import {
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { cn } from "@/lib/utils";
-import { useToast } from "../hooks/use-toast";
+import { useToast } from "../hooks/useToast";
 import {
   FaLinkedin,
   FaGithub,

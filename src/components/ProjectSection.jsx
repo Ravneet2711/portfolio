@@ -95,6 +95,15 @@ const projects = [
     demoUrl: "https://upload-quotes.netlify.app/quotes",
     tags: ["React", "Router", "API"],
   },
+  {
+    id: 11,
+    title: "Netflix Clone",
+    description: "Netflix-style movie browsing with previews.",
+    image: "/projects/project-11.png",
+    githubUrl: "https://github.com/Ravneet2711/Netflix-clone",
+    demoUrl: "https://movie-flix-clone.vercel.app/",
+    tags: ["React", "TailwindCSS", "TMDB API"],
+  },
 ];
 
 const ProjectSection = () => {

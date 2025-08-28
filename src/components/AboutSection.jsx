@@ -1,5 +1,5 @@
 import React from "react";
-import { Briefcase, Code, User } from "lucide-react";
+import { Briefcase, Code, GraduationCap, User } from "lucide-react";
 
 const AboutSection = () => {
   return (
@@ -40,15 +40,28 @@ const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Code className="h-6 w-6 text-primary" />
+                  <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">
-                    Frontend Development
-                  </h4>
+                  <h4 className="font-semibold text-lg">Experience</h4>
                   <p className="text-muted-foreground">
-                    I specialize in building responsive user interfaces using
-                    React, HTML, CSS, and JavaScript.
+                    1+ years of experience building scalable UI components and
+                    responsive websites with React and JavaScript.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <GraduationCap className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">Qualification</h4>
+                  <p className="text-muted-foreground">
+                    Bachelor of Technology (IT) from Guru Tegh Bahadur Institute
+                    of Technology.
                   </p>
                 </div>
               </div>
@@ -60,27 +73,10 @@ const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">User Experience</h4>
+                  <h4 className="font-semibold text-lg">Personal Strength</h4>
                   <p className="text-muted-foreground">
-                    I create intuitive, user-friendly designs with a focus on
-                    clarity and responsiveness.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">
-                    Professional Experience
-                  </h4>
-                  <p className="text-muted-foreground">
-                    I have 1+ years of experience building scalable frontend
-                    solutions and reusable components.
+                    Adaptable, detail-oriented, and passionate about learning
+                    new tools & frameworks.
                   </p>
                 </div>
               </div>

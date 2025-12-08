@@ -8,9 +8,9 @@ function App() {
   return (
     <>
       <ToastProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/portfolio">
           <Routes>
-            <Route index element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
           <AppToast />

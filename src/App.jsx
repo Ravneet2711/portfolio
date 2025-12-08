@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <ToastProvider>
-        <BrowserRouter basename="/portfolio">
+        <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="*" element={<NotFoundPage />} />
